@@ -1,4 +1,4 @@
-# 🛍️ Smart Store Footfall & Behavior Analytics
+# Smart Store Footfall & Behavior Analytics
 
 > **Turning in-store customer movement into actionable retail decisions — powered by the MERL Shopping Dataset.**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project analyzes **customer shopping behavior** at retail shelves using the [MERL Shopping Dataset](https://www.merl.com/demos/merl-shopping-dataset) — a collection of 106 surveillance-style videos featuring 41 subjects across 3 sessions each.
 
@@ -25,7 +25,7 @@ The dashboard tracks and visualizes **5 in-store shopping actions**:
 
 ---
 
-## 🎯 What This Dashboard Does
+##  What This Dashboard Does
 
 - **Action Frequency Analysis** — which behaviors dominate customer interactions
 - **Duration Analysis** — how long customers engage with each action type
@@ -36,7 +36,7 @@ The dashboard tracks and visualizes **5 in-store shopping actions**:
 
 ---
 
-## 🧠 Key Business Insights Generated
+##  Key Business Insights Generated
 
 > *"Customers who Inspect Product at 2× the rate of Inspect Shelf are converting browsers into buyers — good shelf-eye-level alignment."*
 
@@ -46,7 +46,7 @@ The dashboard tracks and visualizes **5 in-store shopping actions**:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -74,16 +74,16 @@ streamlit run dashboard.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 retail-footfall-analysis/
 │
-├── dashboard.py                  # 🖥️  Main Streamlit app
-├── data_loader.py                # 🔧  Data loading & simulation logic
-├── requirements.txt              # 📦  Python dependencies
+├── dashboard.py                  # Main Streamlit app
+├── data_loader.py                # Data loading & simulation logic
+├── requirements.txt              # Python dependencies
 │
-├── Results/                      # 📂  MERL Results folder (not in repo)
+├── Results/                      # MERL Results folder (not in repo)
 │   ├── DetectedActions/
 │   │   ├── 1.mat                 #      Reach to Shelf detections
 │   │   ├── 2.mat                 #      Retract from Shelf
@@ -93,13 +93,13 @@ retail-footfall-analysis/
 │   ├── frame_names.txt           #      Frame-to-filename mapping
 │   └── framepreds.mat            #      Per-chunk prediction scores
 │
-└── Labels_MERL_Shopping_Dataset/ # 📂  Ground truth labels (not in repo)
+└── Labels_MERL_Shopping_Dataset/ #      Ground truth labels (not in repo)
     └── xx_yy_label.mat           #      Per-subject session labels
 ```
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |-------|-------|
@@ -110,7 +110,7 @@ retail-footfall-analysis/
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 > The dashboard runs in two modes:
 > - **Demo Mode** — uses simulated data mirroring real MERL structure (works immediately, no data download)
@@ -118,7 +118,7 @@ retail-footfall-analysis/
 
 ---
 
-## 💼 Business Context
+##  Business Context
 
 This project mirrors real-world retail intelligence solutions like **Brysk** (camera-based in-store analytics) and similar computer vision platforms used in modern retail.
 
@@ -129,7 +129,7 @@ Instead of just showing code, this project answers:
 
 ---
 
-## 📚 Dataset Citation
+##  Dataset Citation
 
 ```bibtex
 @InProceedings{Singh_2016_CVPR,
@@ -142,7 +142,7 @@ Instead of just showing code, this project answers:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Srijita Kayal**  
 MBA — Data Science & Business Analytics | BIBS, Kolkata  
